@@ -5,7 +5,8 @@ from typing import Any, List, Mapping, Optional, Dict
 from langchain_core.callbacks.manager import CallbackManagerForLLMRun
 from langchain_core.language_models.llms import LLM
 from zhipuai import ZhipuAI
-
+import numpy as np
+import pandas as pd
 import os
 
 # 继承自 langchain.llms.base.LLM
