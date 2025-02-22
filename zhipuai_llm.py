@@ -5,7 +5,7 @@ from typing import Any, List, Mapping, Optional, Dict
 from langchain_core.callbacks.manager import CallbackManagerForLLMRun
 from langchain_core.language_models.llms import LLM
 from zhipuai import ZhipuAI
-
+import torch
 import os
 
 # 继承自 langchain.llms.base.LLM
